@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>PetExpress</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>🐶 PetExpress</h1>
+        <p>Entrega rápida de ração para seu pet</p>
+    </header>
+
+    <main>
+        <section class="cadastro">
+            <h2>Faça seu Pedido</h2>
+
+            <input type="text" id="nome" placeholder="Seu nome">
+            <input type="text" id="pet" placeholder="Nome do pet">
+            <input type="text" id="racao" placeholder="Tipo de ração">
+
+            <button onclick="fazerPedido()">Enviar Pedido</button>
+
+            <p id="mensagem"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
